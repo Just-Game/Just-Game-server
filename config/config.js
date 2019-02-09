@@ -8,7 +8,6 @@
 
 /**
  * Configuration for Development step.
- * @type {{server_db_password: string, server_db_address: string}}
  */
 const dev_config = {
     connectionString: 'postgresql://<db_user>:<secret_password>@<database.server.com>:<port>/<my_db>'
@@ -16,7 +15,6 @@ const dev_config = {
 
 /**
  * Configuration for Deployment step.
- * @type {{config: {server_db_password: string, server_db_address: string}}}
  */
 // const config = {
 //     connectionString: 'postgresql://<db_user>:<secret_password>@<database.server.com>:<port>/<my_db>'
