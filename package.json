@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "node app.js"
+  },
+  "name": "Just-Game-server",
+  "version": "1.0.0",
+  "description": "Just-Game's Node.js Server",
+  "main": "index.js",
+  "repository": "https://github.com/Just-Game/Just-Game-server",
+  "author": "HyeockJinKim <kherootz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.8.0"
+  }
+}
