@@ -1,5 +1,6 @@
 # config for server
-config/config.js
+
+config/
 
 # Logs
 logs
